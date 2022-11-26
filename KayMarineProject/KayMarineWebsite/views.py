@@ -22,7 +22,7 @@ def ContactUs(request):
             'Query of Website Visitor',
             contact_detail,
             'kaymarineservices@gmail.com',
-            ['vineetmodi1@gmail.com'],
+            ['kaymarineservices@gmail.com'],
             fail_silently=False,
         )
         messages.add_message(request, messages.SUCCESS, 'Profile details Sent Successfully.')
