@@ -20,16 +20,23 @@
 <body class="body">
   <div class="section">
     <div class="columns w-row">
-      <div class="w-col w-col-5">
+      <div class="w-col w-col-4">
         <div class="w-container"><img class="image" src="{% static 'images/kayMarine.png' %}" width="223" alt="" style="opacity:0" sizes="(max-width: 479px) 92vw, 223px" data-w-id="5a0b206d-a84c-e620-07f6-29b9deb2d72d" loading="lazy"></div>
       </div>
-      <div data-w-id="Column_2" class="column w-col w-col-7">
+      <div data-w-id="Column_2" class="column w-col w-col-8">
         <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="navbar-2 w-nav">
           <div class="container-3 w-container">
             <nav role="navigation" class="nav-menu-2 w-nav-menu">
               <a href="{% url 'index' %}" class="navlink w-nav-link"><strong>HOME</strong></a>
               <a href="{% url 'AboutUs' %}" class="navlink w-nav-link"><strong>ABOUT US</strong></a>
               <a href="{% url 'ContactUs' %}" class="navlink w-nav-link"><strong>CONTACT US</strong></a>
+              <div class="dropdown">
+                <button class="dropbtn">SERVICES</button>
+                <div class="dropdown-content">
+                  <a href="{% url 'MaritimeGarbageDisposal' %}" style="color:#20288c;">MARITIME GARBAGE DISPOSAL</a>
+                  <a href="{% url 'ShipSurvey' %}" style="color:#20288c;">SHIP SURVEY</a>
+                </div>
+              </div>
             </nav>
             <div class="menu-button w-nav-button">
               <div class="w-icon-nav-menu"></div>
@@ -42,11 +49,53 @@
       <div class="div-block-2">
         <div data-w-id="Div Block 2" style="opacity:0" class="div-block-3">
           <h1 data-w-id="Heading" style="opacity:0" class="heading">We at Kay Marine</h1>
-	  <!--<p class="paragraph">specializes in the supply of products and services to ship and shipping companies. Kay Marine cover all the ports of <span class="text-span" style="color:#b61e1e">Australia</span>. we provides Marine Services, Supplies and Solutions to our clients ensuring High Quality, Competent Workmanship &amp; Quality.</p>-->
-	  <p class="paragraph">
-	  	specialises in Ship supplies, Marine supplies, Provisions supply, Ship chandler requirements, products and services to the ship and shipping companies. Kay Marine covers all the ports of Australia, including regional ports of Western Australia. And quick Ship supplies in Port Hedland, Dampier, Broome and Port Walcott.
-We provide Marine supplies, Services and Solutions to our clients ensuring High Quality, Competent workmanship & Quality.
-	  </p>
+          <!--<p class="paragraph">specializes in the supply of products and services to ship and shipping companies. Kay Marine cover all the ports of <span class="text-span" style="color:#b61e1e">Australia</span>. we provides Marine Services, Supplies and Solutions to our clients ensuring High Quality, Competent Workmanship &amp; Quality.</p>-->
+          <p class="paragraph">
+            Kay Marine is a quality-managed company that 
+            provides a comprehensive range of marine supplies and
+            services for ship owners, ship management and shipyards. 
+            Whether you need products, engineering or consultancy 
+            for your vessels that apply the worldwide maritime routes, 
+            Kay Marine can help you with specialized, personalized and customized solutions.
+            <br>
+            <br>
+            <span class="blink">Ship Survey:</span> Kay Marine has experienced senior ship 
+            officers who can conduct various types of surveys such 
+            as pre-AMSA audits, cargo surveys, ISPS, MLC, ISM surveys, 
+            condition surveys and pre-purchase survey.s
+            <br>
+            <br>
+            <span class="blink">Supplies:</span> Kay Marine provides a wide and comprehensive 
+            range of marine equipment, spares, deck, engine, cabins, 
+            galley, bonded stores and provisions at competitive prices 
+            with uncompromised quality
+            <br>
+            <br>
+            <span class="blink">Repairs:</span> Kay Marine can arrange for repairs of your vessels 
+            at any port in Australia or nearby countries with qualified 
+            and experienced technicians.
+            <br>
+            <br>
+            <span class="blink">Agency Services:</span> Kay Marine can act as your agent in 
+            Australia and handle all the port formalities, documentation, 
+            crew change and clearance for your vessels.
+            <br>
+            <br>
+            <span class="blink">Repair Services:</span> Kay Marine can provide repair services 
+            for your vessels such as welding, fabrication, 
+            electrical work, painting etc. at any port in Australia.
+            <br>
+            <br>
+            <span class="blink">Ship Garbage Disposal:</span> Kay Marine can arrange for safe 
+            and environmentally friendly disposal of your ship’s 
+            garbage at the port of Port Hedland in Australia with authorization. 
+            <br>
+            <br>
+            <span class="blink">
+              If you are looking for a reliable partner for 
+              your marine needs in Australia or nearby regions, Kay Marine is the best choice!
+            </span>
+          </p>  
         </div>
       </div>
     </div>

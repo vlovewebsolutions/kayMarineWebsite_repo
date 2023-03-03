@@ -28,6 +28,13 @@
           <a href="{% url 'index' %}" class="nav-link-3 w-nav-link"><strong class="bold-text-2">HOME</strong></a>
           <a href="{% url 'AboutUs' %}" class="nav-link-3 w-nav-link"><strong class="bold-text-3">ABOUT US</strong></a>
           <a href="{% url 'ContactUs' %}" aria-current="page" class="nav-link-3 w-nav-link w--current"><strong class="bold-text-3">CONTACT US</strong></a>
+          <div class="dropdown">
+            <button class="dropbtn" class="nav-link-3" style="color:#20288c;">SERVICES</button>
+            <div class="dropdown-content">
+              <a href="{% url 'MaritimeGarbageDisposal' %}" style="color:#20288c;">MARITIME GARBAGE DISPOSAL</a>
+              <a href="{% url 'ShipSurvey' %}" style="color:#20288c;">SHIP SURVEY</a>
+            </div>
+          </div>
         </nav>
         <div class="w-nav-button">
           <div class="w-icon-nav-menu"></div>

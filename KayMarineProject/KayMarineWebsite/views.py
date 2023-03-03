@@ -9,6 +9,12 @@ def index(request):
 def AboutUs(request):
     return render(request, 'aboutus.html')
 
+def MaritimeGarbageDisposal(request):
+    return render(request, 'maritime_garbage_disposal.html')
+
+def ShipSurvey(request):
+    return render(request, 'ship_survey.html')
+
 def ContactUs(request):
     if request.method == "POST":
         name = request.POST.get("name")

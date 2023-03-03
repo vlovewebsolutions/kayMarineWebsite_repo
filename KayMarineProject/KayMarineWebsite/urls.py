@@ -23,6 +23,8 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('AboutUs/', views.AboutUs, name='AboutUs'),
     path('ContactUs/', views.ContactUs, name='ContactUs'),
+    path('MaritimeGarbageDisposal/', views.MaritimeGarbageDisposal, name='MaritimeGarbageDisposal'),
+    path('ShipSurvey/', views.ShipSurvey, name='ShipSurvey'),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
